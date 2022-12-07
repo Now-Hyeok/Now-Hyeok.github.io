@@ -6,7 +6,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.4.1"
   },
