@@ -7,8 +7,8 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://now-hyeok.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "gh-pages": "^4.0.0",
