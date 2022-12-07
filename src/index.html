@@ -87,9 +87,9 @@
                 수상내역
                 <span style="font-size: 8px;">
                 <br/>
-                ● 제 14회 소외된 이웃과 함께하는 창의설계 온라인 경진대회 동상
+                제 14회 소외된 이웃과 함께하는 창의설계 온라인 경진대회 동상
                 <br/>
-                ● 제 11회 정보기술대학 작품전시회 동상
+                제 11회 정보기술대학 작품전시회 동상
                 </span>
               </p>
               <p class="about-wrapper__info-text">
@@ -158,22 +158,15 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
+
                     <img
                       alt="Project Image"
                       class="img-fluid"
                       src="assets/mobile.png"
 
                     />
-                  </div>
               </div>
-            </div>
+            </div>z
           </div>
           <!-- /END Project -->
 
@@ -195,13 +188,22 @@
                   <br/>
                   <h3>모델링 시뮬레이션 공학</h3>
                   <p style="font-size: 10px;">
-                    모델링이 어쩔저쩔
+                    자연현상, 사회과학, 공학 분야의 문제를 모델로 만들고 시뮬레이션 하는 과정이다. 
+                    자동차, 드론 등 시스템의 행동을 모델링 해서 컴퓨터 시뮬레이션 엔진을 통해 재현하고 그 결과를 도출해 내어 시뮬레이션 상황을 분석하고 실제 상황에 활용할 수 있다.
                   </p>
                   <br/>
-                  <h3>DEVS</h3>
+                  <h3>이산사건시스템명세 형식론(DEVS)</h3>
                   <p style="font-size: 10px;">
-                    DEVS는 어쩌구 저쩌ㅜㄱ
+                    - 이산 시간 사건 모델링을 위한 수학적 틀로 DEVS는 최소단위인 원자 모델과 결합 모델로 이루어 져 있으며 원자 모델은 시스템의 행동을 기록하고 모델의 상태에 따른 동작에 대해 표현한다. 
+                    결합 모델 은 모델들을 내부적으로 연결하여 만든 모델로 결합 모델을 통해 복잡한 시스템의 모델링이 가능하다.
+                    <br/>
+                    - DEVS 에서는 3개의 집합(입력 이벤트, 출력 이벤트, 상태) 과 4개의 함수(외부천이함수, 내부천이함수, 시간진행함수, 출력함수) 를 정의함으로써 시스템을 모델링 할 수 있다.
                   </p>
+                  <br/>
+                  <p style="font-size: 12px;">
+                    시뮬레이션
+                  </p>
+                  
 
 
                 </div>
@@ -218,21 +220,20 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
+
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/simul.jpg"
                     />
-                  </div>
-                </a>  
+                    <p>시뮬레이션 엔진 아키텍쳐</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/sim_result.png"
+                  />
+                  <p>기존 시뮬레이션 엔진과 성능비교</p>
+
               </div>
             </div>
           </div>
@@ -261,7 +262,21 @@
                       <li >DEVS</li>
                     </ul>
                   </p>
-                  <p>
+                  <br/>
+                  <h3>요구사항</h3>
+                  <ol>
+                    <li>저전력 분산컴퓨팅 환경</li>
+                    <li>상대적 디지털 소외 계층인 협동조합원들의 사용이 용이한 시스템</li>
+                    <li>오픈소스 기반의 데이터베이스 시스템</li>
+                    <li>협동조합원들의 현 상황을 파악하고 이를 바탕으로 협동조합의 의사결정을 지원</li>
+                    <li>손쉽게 사용할 수 있는 인터페이스 및 사용자 경험</li>
+                    <li>수확치를 예상해 볼 수 있는 모델링 및 시뮬레이션 기술을 활용</li>
+                  </ol>
+                  <br/>
+                  <p style="font-size: 12px;">
+                    요구사항에 대한 저희의 솔루션은 라즈베리파이 를 활용해 조합원이 재고를 입력하고 협동조합에서는 웹 기반으로 조합원이 입력한 재고 입고 출하 등을 관리하고 시뮬레이션 엔진을 활용해 입고량과 출하량을 바탕으로
+                    조합의 재고량을 예상해볼 수 있는 시뮬레이션하는 것 입니다. 
+                    <br/>
                     
                   </p>
                 </div>
@@ -277,22 +292,43 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
+
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/wbs.jpg"
+                    />
+                    <p>요구사항에 따른 솔루션 과 WBS</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/inven_archi.png"
+                    />
+                    <p>시스템 구성도</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/invimg1.png"
+                    />
+                    <p>조합 재고 페이지</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/invimg2.png"
+                    />
+                    <p>조합원의 입고일정 페이지</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/model.png"
+                    />
+                    <p>DEVS기반 모델링</p>
                     <img
                       alt="Project Image"
                       class="img-fluid"
                       src="assets/simulationResult.png"
                     />
-                    
-                  </div>
-                </a>
+                    <p>시뮬레이션 결과</p>
               </div>
             </div>
           </div>
