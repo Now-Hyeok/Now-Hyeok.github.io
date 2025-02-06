@@ -1,0 +1,467 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>한밭대학교 컴퓨터공학과 이제혁 포트폴리오</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          한밭대학교 컴퓨터공학과 <br/> 20171593 <br/>
+          <span class="text-color-main">이제혁</span>
+          
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                한밭대학교 컴퓨터공학과 졸업(2017. 03 ~ 2023. 08)
+              <br/>
+                KT 에이블스쿨 AI트랙 3기(2023. 01 ~ 2023. 07)
+              </p>
+              
+              
+              <p class="about-wrapper__info-text">
+                수상내역
+                <span style="font-size:14px;">
+                <br/>
+                제 14회 소외된 이웃과 함께하는 창의설계 온라인 경진대회 동상
+                <br/>
+                제 11회 정보기술대학 작품전시회 동상
+                </span>
+              </p>
+              <p class="about-wrapper__info-text">
+                GPA
+                <span style="font-size:14px;">
+                <br/>
+                3.58 / 4.5
+                <br/>
+                Major
+                <br/>
+                3.93 / 4.5
+                </span>
+              </p>
+              <p class="about-wrapper__info-text">
+                자격증
+                <span style="font-size:14px;">
+                <br/>
+                정보처리기사
+                <br/>
+                AICE Associate
+                <br/>
+                SQLD
+                </span>
+              </p>
+              <!-- <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">냉장고 관리 어플리케이션</h3>
+                <div>
+                  <p class="mb-4">
+                    3학년 1학기 모바일 컴퓨팅과 응용 프로젝트
+                    <ul>
+                      <li >Java</li>
+                      <li >Android Studio</li>
+                      <li >Firebase</li>
+                    </ul>
+                  </p>
+                  <p style="font-size: 1.5rem;">
+                    식자재의 구매일자 유통기한 등을 등록하고 관리할 수 있는 어플리케이션 으로
+                    식품의약품안전처 의 바코드연계제품정보 API 와 바코드 스캐너를 통해 제품의 바코드를 스캔해서 등록할 수 있습니다.
+                    <br/>
+                    데이터베이스 와 로그인 및 회원가입 기능은 Firebase를 사용합니다. 
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Now-Hyeok/MobileProject"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/mobile.png"
+
+                    />
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Golang 기반 시뮬레이션 엔진</h3>
+                <div>
+                  <p class="mb-4">
+                    Capstone Design
+                    <ul>
+                      <li >Golang</li>
+                      <li >M&S</li>
+                      <li >DEVS</li>
+                    </ul>
+                  </p>
+
+                  <br/>
+                  <h2>작품개요</h2>
+                  <ul style="font-size: 1.2rem">
+                    <li>모델링 & 시뮬레이션 은 시간, 인력, 자원 등의 낭비없이 다양한 문제 해결에 기여 할 수 있기 때문에 국방, 자율주행, 메타버스 등 다양한 분야에서 사용한다.</li>
+                    <li>하지만 기술이 발전함에 따라 규모와 복잡성의 증대로 결과를 도출 해내기 까지 많은 시간이 소요된다. 이러한 문제를 해결하기 위해 속도가 빠른 GoLang과 경량쓰레드인 GoRoutine을 활용해 이산사건시스템 명세 형식론 에 기반한 시뮬레이션 엔진을 개발하고 사례개발을 통해 엔진의 유효성을 검증하고 활용방안을 제시한다.                </li>
+                  </ul>
+                  <br/>
+
+                  <h2>모델링 시뮬레이션 공학</h2>
+                  <ul style="font-size: 1.2rem">
+                    <li>자연현상, 사회과학, 공학 분야의 문제를 모델로 만들고 시뮬레이션 하는 과정이다. 
+                      자동차, 드론 등 시스템의 행동을 모델링 해서 컴퓨터 시뮬레이션 엔진을 통해 재현하고 그 결과를 도출해 내어 시뮬레이션 상황을 분석하고 실제 상황에 활용할 수 있다.</li>
+                  </ul>
+
+                  <br/>
+
+                  <h2>이산사건시스템명세 형식론(DEVS)</h2>
+
+                  <ul style="font-size: 1.2rem">
+                    <li>이산 시간 사건 모델링을 위한 수학적 틀로 DEVS는 최소단위인 원자 모델과 결합 모델로 이루어 져 있으며 원자 모델은 시스템의 행동을 기록하고 모델의 상태에 따른 동작에 대해 표현한다. 결합 모델 은 모델들을 내부적으로 연결하여 만든 모델로 결합 모델을 통해 복잡한 시스템의 모델링이 가능하다.</li>
+                    <li>DEVS 에서는 3개의 집합(입력 이벤트, 출력 이벤트, 상태) 과 4개의 함수(외부천이함수, 내부천이함수, 시간진행함수, 출력함수) 를 정의함으로써 시스템을 모델링 할 수 있다.</li>
+                  </ul>
+
+                  <br/>
+                  <p style="font-size: 1.5rem;">
+                    엔진의 사용자는 모델을 정의하고 있는 구조체를 임베딩 하고 외부이벤트에 따른 모델의 동작 및 상태변화를 명세하는 외부 천이 함수, 일정시간 상태의 변화가 없을 때 동작해 내부의 상태를 바꾸는 내부천이함수, 내부 천이 함수 호출시 호출되어 이벤트를 발생시키는 출력 함수(Output Function)를 정의하는 인터페이스를 구현 함으로 써 원자모델을 생성 할 수 있습니다. 
+                    <br/>
+                    <br/>
+                    추가로 사용자는 모델간의 연결, 내외부 이벤트, 모델의 상태를 정의하고 모델을 엔진에 등록하고 엔진을 동작시킵니다. 모델에 외부로부터 입력이 들어오면 엔진의 Behavior Model Executor 가 원자모델을 외부천이함수를 동작시킵니다. 
+                    <br/>
+                    <br/>
+                    그리고 원자모델의 출력함수가 동작하면 Behavior Model Executor 가 이벤트를 받아 중계역할을 하는 system Executor를 통해 목적지에 해당하는 모델의 Behavior Model Executor 에게 값을 넘기고 값을 받은 Behavior Model Executor 가 해당 모델에 이벤트를 입력하고 외부천이함수를 실행시킵니다.
+
+                  </p>
+                  <br/>
+                  <h2>기대효과</h2>
+                  <ol style="font-size: 1.2rem">
+                    <li>사용자가 자신의 의도에 맞게 모델을 정의하고, 구현하여 시뮬레이션을 수행하게끔 하는데, 많은 수의 모델을 생성해도 빠른 성능을 제공해 사용자가 빠른 시뮬레이션의 결과를 도출하도록 돕는다.</li>
+                    <li>엔진을 활용해 본 과제에서 사례개발로 개발한 협동조합을 위한 재고관리 시뮬레이션처럼 시스템의 행동과 상태 등을 이산사건시스템 명세 형식론 기반으로 모델링하고 시뮬레이션하여 의사결정과 정책결정 을 하는데있어 활용하거나, 거대한 프로젝트에도 활용되서 사용자에게 뛰어난 성능을 제공 할 수 있다.</li>
+                    <li>이미 만들어져 국방 등 다양한 분야에서 활용되고 있는 이산사건시스템 명세 형식론 기반 모델을 그대로 이식해서 사용할 수 도 있다.</li>                  
+                  </ol>
+
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Now-Hyeok/GO_sim"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/eng1.png"
+                    />
+                    <p>시뮬레이터</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/eng2.png"
+                  />
+                  <p>시뮬레이션 엔진 아키텍쳐</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/sim_result.png"
+                  />
+                  <p>기존 시뮬레이션 엔진과 성능비교</p>
+
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">시뮬레이션 엔진을 활용한 협동조합 재고관리 시스템</h3>
+                <div>
+                  <p class="mb-4">
+                    소외된 이웃과 함께하는 창의설계 온라인 경진대회 참가
+                    <br/>
+                    주제 : 협동조합 소득증대를 위한 재고관리 프로그램 설계 및 개발
+                    <br/>
+                    <ul>
+                      <li >HTML CSS</li>
+                      <li >VueJS</li>
+                      <li >NodeJS</li>
+                      <li >AWS</li>
+                      <li >MariaDB</li>
+                      <li >Golang</li>
+                      <li >M&S</li>
+                      <li >DEVS</li>
+                    </ul>
+                  </p>
+
+                  <p style="font-size:1.5rem;">
+                    개발도상국의 협동조합에서는 조합과 조합원 간의 정보교환의 어려움과 신뢰의 부재로 조합을 체계적으로 운영하는데 있어서 어려움을 겪고 있다. 또 재고의 공급과 수요량을 정확하게
+                    확인하기 힘들어 재고를 효과적으로 관리하기가 어렵다. 이에 따라 협동조합 소속 영세 농가들의 경쟁력과 조합의 시장교섭력이 떨어지며 경제적으로 더욱 어려워지는 악순환이 반복되고 있다.
+                  </p>
+                  <br/>
+                  <h2>요구사항</h2>
+                  <ol style="font-size: 1.2rem;">
+                    <li>저전력 분산컴퓨팅 환경</li>
+                    <li>상대적 디지털 소외 계층인 협동조합원들의 사용이 용이한 시스템</li>
+                    <li>오픈소스 기반의 데이터베이스 시스템</li>
+                    <li>협동조합원들의 현 상황을 파악하고 이를 바탕으로 협동조합의 의사결정을 지원</li>
+                    <li>손쉽게 사용할 수 있는 인터페이스 및 사용자 경험</li>
+                    <li>수확치를 예상해 볼 수 있는 모델링 및 시뮬레이션 기술을 활용</li>
+                  </ol>
+                  <br/>
+                  <p style="font-size: 1.5rem;">
+                    요구사항에 대한 저희의 솔루션은 라즈베리파이 를 활용해 조합원이 재고를 입력하고 협동조합에서는 Vue.js 와 Node.js를 사용해 웹 기반으로 조합원이 입력한 재고 입고 출하 등을 관리하고 시뮬레이션 엔진을 활용해 입고량과 출하량을 바탕으로조합의 재고량을 예상해볼 수 있는 시뮬레이션하는 것 입니다. 
+                    <br/>
+                    <br/>
+                    프로젝트간 저의 역할은 웹 기반 협동조합 재고관리 프로그램 개발, DB설계, 재고량 시뮬레이션을 위한 모델링 이였습니다.
+                    <br/>
+                    <br/>
+                    협동조합의 조합원들은 자신의 라즈베리파이 기기에 자신의 재고 와 출하예정일을 등을 입력합니다. 조합원은 그동안 입력한 자신의 재고, 다른 조합원이 입력한 재고, 조합의 판매량 등을 확인할 수 있습니다. 
+                    <br/>
+                    조합에서는 조합원 을 관리하고 조합원이 입력한 재고와 입고처리된 재고, 판매 와 출하 를 관리 할 수 있습니다. 그리고 조합의 판매량 그래프와 조합원과 소통을 위한 게시판 이 있습니다. 
+                    <br/>
+                    <br/>
+                    재고량 시뮬레이션 을 위해 조합원, 협동조합, 구매자 의 행동을 모델링 했습니다. 조합원 모델 은 조합원의 숫자만큼 생성하며 1년간의 평균 입고량 바탕으로 협동조합에 물건을 입고 합니다.
+                    <br/>
+                    
+                    협동조합 모델은 재고를 입고받고 구매자에게 재고를 출하 하며 매일매일 재고를 관리하며 보관기간이 지난 재고를 버립니다. 
+                    <br/>
+                    구매자 모델은 1년간의 평균 판매량을 바탕으로 협동조합 으로 부터 물건을 구매합니다. 
+                    <br/>
+                    <br/>
+                    시뮬레이션 페이지에서 입력으로 상품의 보관기간 과 수요 와 공급의 예상변화량을 입력하고 시뮬레이션을 합니다. 시뮬레이션의 결과로 입고량, 출하량, 재고, 보관기간이 지나 버려진 양, 구매를 희망했으나 재고가없어 구매하지못한 양을 시각화 해서 보여줍니다. 
+                    <br/>
+                    이를 통해 조합은 내년의 재고량을 예측해보고 앞으로의 의사결정에 참고 할 수 있습니다.
+
+                  </p>
+                  <br/>
+                  <h2>기대효과</h2>
+                  <ol style="font-size: 1.2rem">
+                    <li>조합원 장치와 협동조합 프로그램을 통한 정보교환 활성화</li>
+                    <li>정보교환 활성화에 따른 재고 및 자산관리 체계화</li>
+                    <li>조합원 모니터링 및 조합 게시판을 통한 커뮤니케이션 활성화로 조합내의 신뢰 형성</li>
+                    <li>효과적인 운영과 정확한 재고관리로 시장교섭력 강화</li>
+                    <li>재고관리 시뮬레이션으로 재고량을 예측해 조합의 의사결정을 지원 </li>
+                  </ol>
+                </div>
+                
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Now-Hyeok/CoopERP"
+                >
+                  Github
+                </a>
+
+                
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/wbs.png"
+                    />
+                    <p>요구사항에 따른 솔루션 과 WBS</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/inven_archi.png"
+                    />
+                    <p>시스템 구성도</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/rasp.png"
+                    />
+                    <p>조합원의 라즈베리파이 UI</p>
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/invimg1.png"
+                    />
+                    <p>조합 재고 페이지</p>
+
+                    <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/model.png"
+                    />
+                    <p>DEVS기반 모델링</p>
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/sim_re.png"
+                    />
+                    <p>시뮬레이션 결과</p>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">wpgur4694@gmail.com</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:wpgur4694@gmail.com"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://github.com/Now-Hyeok" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
